@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="com.bestbuy.studentinfo.StoreCURDTest" skipped="0" tests="4" time="0.13" timestamp="2023-01-03T20:12:37.841Z[Europe/London]"><testcase classname="com.bestbuy.studentinfo.StoreCURDTest" name="This will create new store"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.bestbuy.studentinfo.StoreCURDTest.test001(StoreCURDTest.java:59)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.studentinfo.StoreCURDTest" name="Verify if the store was added to the application"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.bestbuy.studentinfo.StoreCURDTest.test002(StoreCURDTest.java:68)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.studentinfo.StoreCURDTest" name="Update the user information and verify the updated information"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.bestbuy.studentinfo.StoreCURDTest.test003(StoreCURDTest.java:92)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.studentinfo.StoreCURDTest" name="Delete the store and verify if the student is deleted!"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.bestbuy.studentinfo.StoreCURDTest.test004(StoreCURDTest.java:100)&#13;
+</system-err></testcase></testsuite>

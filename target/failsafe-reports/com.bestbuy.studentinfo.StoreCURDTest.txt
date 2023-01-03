@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.studentinfo.StoreCURDTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.104 sec <<< FAILURE! - in com.bestbuy.studentinfo.StoreCURDTest
+test001(com.bestbuy.studentinfo.StoreCURDTest)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test001(StoreCURDTest.java:60)
+
+test002(com.bestbuy.studentinfo.StoreCURDTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test002(StoreCURDTest.java:70)
+
+test003(com.bestbuy.studentinfo.StoreCURDTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test003(StoreCURDTest.java:95)
+
+test004(com.bestbuy.studentinfo.StoreCURDTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test004(StoreCURDTest.java:104)
+

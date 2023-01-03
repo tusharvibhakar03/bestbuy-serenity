@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.studentinfo.StoreCURDTest" time="0.016" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\MANASV~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Manas Vibhakar\Desktop\JDK\bin;C:\Program Files\Git\cmd;C:\Program Files\Aapche\apache-maven-3.8.6\bin;C:\Users\Manas Vibhakar\Desktop\JDKbin;C:\Program Files\nodejs\;C:\Users\Manas Vibhakar\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin;;C:\Users\Manas Vibhakar\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Manas Vibhakar"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Manas Vibhakar"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test001" classname="com.bestbuy.studentinfo.StoreCURDTest" time="0.01">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test001(StoreCURDTest.java:60)
+</error>
+    <system-err><![CDATA[5395 [main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Delete the product and verify if the product is deleted!
+----------------------------------------------------------------------------
+5484 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Delete the product and verify if the product is deleted! to file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\755a5aec28cd632fb59919a06c53f68ad5ba790aaf1c64ec6c4e87738de859b1.json (using temp file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\755a5aec28cd632fb59919a06c53f68ad5ba790aaf1c64ec6c4e87738de859b1.json75f3e103-4228-4e85-a649-99c1daadd033)
+5484 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify if the product  was added to the application to file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\e61cf0ca0b8b46e833aa143e44a88495be47085ff283fe01e867e28b500dbb7e.json (using temp file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\e61cf0ca0b8b46e833aa143e44a88495be47085ff283fe01e867e28b500dbb7e.jsonfaea99e8-c0db-492a-bc5a-9e6961d5d747)
+5484 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This will create new product to file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\e28f2f81da4f1d7f0a2ac1cb41018d8b9542fdac34b1d5124945db77bcc2875a.json (using temp file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\e28f2f81da4f1d7f0a2ac1cb41018d8b9542fdac34b1d5124945db77bcc2875a.jsone229ea7c-cc2f-4564-a89c-d230af09efe8)
+5484 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Update the user information and verify the updated information to file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\e39efb70f9fa5fbeb702b0aa445c1e2733c7eb50b0b7ee1d7873f8929bb18a53.json (using temp file C:\Users\Manas Vibhakar\IdeaProjects\bestbuy-serenity\target\site\serenity\e39efb70f9fa5fbeb702b0aa445c1e2733c7eb50b0b7ee1d7873f8929bb18a53.jsone5335c16-2337-4704-8c57-982f58cd9e2a)
+5736 [pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product CURD test:test001 in e28f2f81da4f1d7f0a2ac1cb41018d8b9542fdac34b1d5124945db77bcc2875a.html in directory target\site\serenity  
+5736 [pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product CURD test:test003 in e39efb70f9fa5fbeb702b0aa445c1e2733c7eb50b0b7ee1d7873f8929bb18a53.html in directory target\site\serenity  
+5736 [pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product CURD test:test004 in 755a5aec28cd632fb59919a06c53f68ad5ba790aaf1c64ec6c4e87738de859b1.html in directory target\site\serenity  
+5736 [pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product CURD test:test002 in e61cf0ca0b8b46e833aa143e44a88495be47085ff283fe01e867e28b500dbb7e.html in directory target\site\serenity  
+6873 [main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store CURD test
+6874 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001
+-------------------------------------------------------------------
+6874 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 5
+]]></system-err>
+  </testcase>
+  <testcase name="test002" classname="com.bestbuy.studentinfo.StoreCURDTest" time="0.002">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test002(StoreCURDTest.java:70)
+</error>
+    <system-out><![CDATA[Find by lat 11
+]]></system-out>
+    <system-err><![CDATA[6892 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: This will create new store
+---------------------------------------------------------------------
+6893 [main] ERROR net.serenitybdd.core.Serenity - 
+6896 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test002
+-------------------------------------------------------------------
+6896 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 6
+]]></system-err>
+  </testcase>
+  <testcase name="test003" classname="com.bestbuy.studentinfo.StoreCURDTest" time="0.002">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test003(StoreCURDTest.java:95)
+</error>
+    <system-err><![CDATA[6901 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Verify if the store was added to the application
+---------------------------------------------------------------------
+6902 [main] ERROR net.serenitybdd.core.Serenity - 
+6904 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test003
+-------------------------------------------------------------------
+6904 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 7
+]]></system-err>
+  </testcase>
+  <testcase name="test004" classname="com.bestbuy.studentinfo.StoreCURDTest" time="0.002">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.studentinfo.StoreCURDTest.test004(StoreCURDTest.java:104)
+</error>
+    <system-err><![CDATA[6908 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Update the user information and verify the updated information
+---------------------------------------------------------------------
+6909 [main] ERROR net.serenitybdd.core.Serenity - 
+6911 [main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test004
+-------------------------------------------------------------------
+6911 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 8
+]]></system-err>
+  </testcase>
+</testsuite>
